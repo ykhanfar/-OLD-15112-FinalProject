@@ -7,6 +7,7 @@ I will be using a few libraries, possibly more than the ones I list here:
 - Numpy
 - TensorFlow
 - Sklearn
+- Theano
 
 The interface will contain a prompt to upload the image of my face. After the upload, it will display the image
 and a prompt to analyze it. Then, it will attempt to classify the image into one of the aforementioned emotions.
