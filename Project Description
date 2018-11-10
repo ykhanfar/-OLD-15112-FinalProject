@@ -1,0 +1,18 @@
+This project will, hopefully, be able to take an image of my own face as an input, and return the current emotion I am most likely
+feeling based on my facial expression. The emotions I will train the program on will be limited to "Happy", "Sad", "Shocked", "Disgusted",
+and "Neutral".
+
+I will be using a few libraries, possibly more than the ones I list here:
+
+- Numpy
+- TensorFlow
+- Sklearn
+
+The interface will contain a prompt to upload the image of my face. After the upload, it will display the image
+and a prompt to analyze it. Then, it will attempt to classify the image into one of the aforementioned emotions.
+
+By the first demo, the program should have more than a 50% accuracy on only my face. Though I hope to make the program
+accurate on other faces as well, I cannot say that such a feature would be present by then
+
+My final submission will have an improved accuracy, and will hopefully function on more than just my face. Most likely,
+it will work on new images of faces that were in the training set. I'm going for over 80% accuracy.
